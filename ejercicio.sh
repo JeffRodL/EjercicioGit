@@ -41,7 +41,6 @@ Resumen $Resumen
 Entrada:$Entrada
 Salida: $Salida
 */
-
 //librearias
 #include <stdio.h>
 //numerar los pasos del pseudocodigo
@@ -50,4 +49,3 @@ Salida: $Salida
 	vim $y.c					#Que sea abierto automàticamente en vim
 	fi
 fi
-
