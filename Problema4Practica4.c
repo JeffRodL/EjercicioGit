@@ -14,6 +14,8 @@ Salida: numeros enteros o decimales.
 
 int main(){
 
+//Todas las variables que se van a utilizar a continuacion. De las ultimas 3 lineas, no todas son necesarias.
+//Dado que son solo las que vamos a necesitar para la determinante las que se usan.	
 int c, i, j, m;
 int matA[3][3]={{0}};
 int matB[3][3]={{0}};
