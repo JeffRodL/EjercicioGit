@@ -13,6 +13,8 @@ Salida: función recursiva
 //numerar los pasos del pseudocodigo
 
 
+//Se trabajará con funciones recursiva, por lo tanto definimos la función factorial en los enteros que se utilizará
+//mas adelante
 long int factorial(int);
 long int main()
 {
