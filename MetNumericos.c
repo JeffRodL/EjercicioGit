@@ -146,7 +146,7 @@ void main(void){
     fprintf(pipe, "set xlabel 'Tiempo'\n");
     fprintf(pipe, "set ylabel 'Velocidad'\n");
     fprintf(pipe, "set label 'v=%.3f±%.4f+%.3ft±%.4f' at 3,10\n", velocidad0, errorV0, ac, errorA);
-    fprintf(pipe, "plot 'data.txt' using 2:1:3 with errorbars, y=%.3f+%.3fx\n", velocidad0, ac);
+    fprintf(pipe, "plot 'data.txt' using 1:2:3 with errorbars, y=%.3f+%.3fx\n", velocidad0, ac);
 
     pclose(pipe);
 
